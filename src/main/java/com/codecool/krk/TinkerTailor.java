@@ -45,4 +45,10 @@ public class TinkerTailor {
 
         return numberSequence;
     }
+
+    public static void main( String[] args ) {
+        TinkerTailor tinkerTailor = new TinkerTailor();
+
+        System.out.println(tinkerTailor.getOutcome(5, 3));
+    }
 }
